@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shop Mary's Boutique - Affordable jewelry, planners, and handmade boho & cutesy items.">
+    <title>Shop | Mary's Boutique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Mary's <span>Boutique</span></a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link active">Shop</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Our Products</h1>
+                <p class="page-subtitle">Discover our curated collection of boho-inspired treasures</p>
+            </div>
+        </section>
+
+        <!-- Jewelry Section -->
+        <section class="section shop-section">
+            <div class="container">
+                <h2 class="section-title">Jewelry</h2>
+                <p class="section-subtitle">Handpicked pieces to complement your unique style</p>
+                <div class="shop-grid">
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/necklace.jpeg" alt="Boho Beaded Necklace">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Boho Beaded Necklace</h3>
+                            <p class="shop-description">A stunning handcrafted necklace featuring natural wooden beads
+                                and earthy tones, perfect for adding bohemian flair to any outfit.</p>
+                            <p class="shop-price">$25</p>
+                        </div>
+                    </div>
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/bracelet.jpeg" alt="Layered Gold Bracelet">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Layered Gold Bracelet</h3>
+                            <p class="shop-description">Elegant layered bracelet with delicate gold-tone chains, perfect
+                                for stacking or wearing alone for a minimalist look.</p>
+                            <p class="shop-price">$22</p>
+                        </div>
+                    </div>
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/earring.jpeg" alt="Tassel Earrings">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Tassel Earrings</h3>
+                            <p class="shop-description">Playful tassel earrings that add movement and color to any
+                                ensemble. Lightweight and comfortable for all-day wear.</p>
+                            <p class="shop-price">$20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planners & Accessories Section -->
+        <section class="section shop-section shop-section-alt">
+            <div class="container">
+                <h2 class="section-title">Planners & Accessories</h2>
+                <p class="section-subtitle">Stay organized in style with our beautiful stationery</p>
+                <div class="shop-grid">
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/planner.jpeg" alt="Daily Planner">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Daily Planner</h3>
+                            <p class="shop-description">Stay organized in style with our beautifully designed daily
+                                planner, featuring monthly and weekly spreads with inspirational quotes.</p>
+                            <p class="shop-price">$18</p>
+                        </div>
+                    </div>
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/organizer.jpeg" alt="Weekly Organizer">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Weekly Organizer</h3>
+                            <p class="shop-description">Plan your week with ease using our compact weekly organizer.
+                                Features goal tracking, habit trackers, and notes sections.</p>
+                            <p class="shop-price">$20</p>
+                        </div>
+                    </div>
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/sticker.jpeg" alt="Sticker Set">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Sticker Set</h3>
+                            <p class="shop-description">Adorable sticker collection to decorate your planner, journal,
+                                or laptop. Includes 50+ cute and functional designs.</p>
+                            <p class="shop-price">$8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Handmade / Special Items Section -->
+        <section class="section shop-section">
+            <div class="container">
+                <h2 class="section-title">Handmade & Special Items</h2>
+                <p class="section-subtitle">Unique treasures crafted with love and care</p>
+                <div class="shop-grid">
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/tote.jpeg" alt="Hand-painted Tote Bag">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Hand-painted Tote Bag</h3>
+                            <p class="shop-description">One-of-a-kind canvas tote bag featuring original hand-painted
+                                designs. Sturdy, eco-friendly, and absolutely unique.</p>
+                            <p class="shop-price">$30</p>
+                        </div>
+                    </div>
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/keychain.jpeg" alt="Custom Keychains">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Custom Keychains</h3>
+                            <p class="shop-description">Adorable handmade keychains in various designs. Perfect for
+                                personalizing your keys, bag, or gifting to someone special.</p>
+                            <p class="shop-price">$12</p>
+                        </div>
+                    </div>
+                    <div class="shop-card card">
+                        <div class="shop-image">
+                            <img src="images/hairclip.jpeg" alt="Handmade Hair Clips">
+                        </div>
+                        <div class="shop-info">
+                            <h3 class="shop-name">Handmade Hair Clips</h3>
+                            <p class="shop-description">Beautiful handcrafted hair clips in dreamy colors and patterns.
+                                Secure hold and comfortable wear all day long.</p>
+                            <p class="shop-price">$10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mary's Boutique</h4>
+                    <p>Partnering with local </p>
+                    <p>artisans and creators.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Shop</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>(407) 555-1234</p>
+                    <p>info@marysboutique.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mary's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

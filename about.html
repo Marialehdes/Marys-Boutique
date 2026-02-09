@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn about Mary's Boutique - Our story, mission, and passion for boho & cutesy handmade items.">
+    <title>About | Mary's Boutique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Mary's <span>Boutique</span></a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="products.html" class="nav-link">Shop</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">About Us</h1>
+            </div>
+        </section>
+
+        <!-- Owner Background Section -->
+        <section class="section about-owner">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/mary.jpeg" alt="Mary, Owner of Mary's Boutique">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">Meet Mary</h2>
+                        <p>Mary started the boutique to share her love of jewelry and handmade accessories with the
+                            community. Her passion for style and creativity drives every product we offer.</p>
+                        <p>What began as a small collection of handcrafted pieces has grown into a beloved local
+                            destination for unique, affordable accessories that help you express your personal style.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="section about-mission">
+            <div class="container">
+                <div class="mission-content">
+                    <div class="mission-icon">&#10024;</div>
+                    <h2 class="section-title">Our Mission</h2>
+                    <p class="mission-text">Our mission is to provide thoughtfully curated jewelry, planners, and
+                        handmade items that bring joy to everyday life. We support local artisans and believe in
+                        sustainable shopping practices.</p>
+                    <div class="mission-values">
+                        <div class="value-item">
+                            <div class="value-icon">&#128147;</div>
+                            <h4>Curated with Care</h4>
+                            <p>Every item is handpicked for quality and style</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">&#127793;</div>
+                            <h4>Sustainable Practices</h4>
+                            <p>Eco-friendly packaging and ethical sourcing</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">&#127968;</div>
+                            <h4>Support Local</h4>
+                            <p>Partnering with local artisans and creators</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ways to Help Section -->
+        <section class="section about-causes">
+            <div class="container">
+                <h2 class="section-title">Ways to Help</h2>
+                <p class="section-subtitle">Join us in making a difference</p>
+                <div class="causes-content">
+                    <div class="causes-text">
+                        <p>We believe in giving back. You can support our featured causes through our GoFundMe page or
+                            by purchasing items that help fund local community projects. Together, we make a difference!
+                        </p>
+                        <div class="causes-actions">
+                            <a href="#" class="btn btn-primary">Visit Our GoFundMe</a>
+                            <a href="products.html" class="btn btn-secondary">Shop for a Cause</a>
+                        </div>
+                    </div>
+                    <div class="causes-image">
+                        <img src="images/community.jpeg" alt="Community support and giving back">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mary's Boutique</h4>
+                    <p>Partnering with local </p>
+                    <p>artisans and creators.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Shop</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>(407) 555-1234</p>
+                    <p>info@marysboutique.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mary's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

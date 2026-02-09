@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mary's Boutique - Boho & cutesy boutique selling affordable jewelry, planners, and handmade items.">
+    <title>Mary's Boutique | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Mary's <span>Boutique</span></a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Shop</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" style="background-image: url('images/hero.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Mary's Boutique</h1>
+                        <p class="hero-tagline">Chic, Cute, & Unique Finds for You</p>
+                        <p class="hero-description">Discover affordable jewelry, planners, and handmade treasures
+                            designed to brighten your day.</p>
+                        <a href="products.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boutique Overview Section -->
+        <section class="section overview-section" id="about">
+            <div class="container">
+                <div class="overview-content">
+                    <div class="overview-image">
+                        <img src="images/feature.jpg" alt="Handmade jewelry and curated accessories at Mary's Boutique">
+                    </div>
+                    <div class="overview-text-block">
+                        <h2 class="section-title">Welcome to Our Boutique</h2>
+                        <p class="overview-text">At Mary's Boutique, we believe in stylish, high-quality accessories that don't
+                            break the bank. From earth tone inspired jewelry to handcrafted planners, every piece is selected
+                            with care. Our goal is to bring charm and personality to your everyday style.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boutique Atmosphere Section -->
+        <section class="section atmosphere-section">
+            <div class="container">
+                <div class="atmosphere-content">
+                    <div class="atmosphere-text-block">
+                        <h2 class="section-title">A Space Made for You</h2>
+                        <p class="atmosphere-text">Step into a cozy corner filled with charm. Our boutique is designed
+                            to feel like home, where you can browse handpicked treasures, discover new favorites,
+                            and enjoy a warm, welcoming atmosphere.</p>
+                        <a href="about.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="atmosphere-image">
+                        <img src="images/extra.jpg" alt="Cozy corner of Mary's Boutique with flowers and accessories">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="section products-section">
+            <div class="container">
+                <h2 class="section-title">Featured Products</h2>
+                <p class="section-subtitle">Our most loved items, handpicked just for you</p>
+                <div class="products-grid">
+                    <div class="product-card card">
+                        <div class="product-image">
+                            <img src="images/beadednecklace.jpeg" alt="Boho Beaded Necklace">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Boho Beaded Necklace</h3>
+                            <p class="product-description">A stunning handcrafted necklace featuring natural wooden
+                                beads and earthy tones, perfect for adding bohemian flair to any outfit.</p>
+                            <p class="product-price">$25</p>
+                        </div>
+                    </div>
+                    <div class="product-card card">
+                        <div class="product-image">
+                            <img src="images/planner.jpeg" alt="Daily Planner">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Daily Planner</h3>
+                            <p class="product-description">Stay organized in style with our beautifully designed daily
+                                planner, featuring monthly and weekly spreads with inspirational quotes.</p>
+                            <p class="product-price">$18</p>
+                        </div>
+                    </div>
+                    <div class="product-card card">
+                        <div class="product-image">
+                            <img src="images/handmadeearing.jpeg" alt="Handmade Earrings">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Handmade Earrings</h3>
+                            <p class="product-description">Delicate handmade earrings crafted with love, featuring
+                                unique designs that add a touch of elegance to your everyday look.</p>
+                            <p class="product-price">$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="products.html" class="btn btn-secondary">View All Products</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours & Location Section -->
+        <section class="section info-section">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">&#128337;</div>
+                        <h3>Store Hours</h3>
+                        <p>Monday - Saturday</p>
+                        <p class="info-highlight">10 AM - 6 PM</p>
+                        <p class="info-note">Closed on Sundays</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">&#128205;</div>
+                        <h3>Our Location</h3>
+                        <p>123 Main Street</p>
+                        <p class="info-highlight">Orlando, FL</p>
+                        <a href="contact.html" class="info-link">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mary's Boutique</h4>
+                    <p>Partnering with local </p>
+                    <p>artisans and creators.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Shop</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>(407) 555-1234</p>
+                    <p>info@marysboutique.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mary's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

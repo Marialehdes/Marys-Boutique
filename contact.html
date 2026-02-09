@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Mary's Boutique - Get in touch with us for questions about our jewelry, planners, and handmade items.">
+    <title>Contact | Mary's Boutique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Mary's <span>Boutique</span></a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Shop</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+                <p class="page-subtitle">We'd love to hear from you</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="section contact-form-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-form-container">
+                        <h2 class="section-title">Get in Touch</h2>
+                        <p class="contact-intro">Have a question or want to say hi? Fill out the form below and we'll
+                            get back to you!</p>
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your email address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="How can we help you?"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info Sidebar -->
+                    <div class="contact-info-container">
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">&#128205;</div>
+                            <h3>Our Location</h3>
+                            <p>123 Main Street</p>
+                            <p>Orlando, FL</p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">&#128337;</div>
+                            <h3>Store Hours</h3>
+                            <p>Monday - Saturday</p>
+                            <p class="hours-highlight">10 AM - 6 PM</p>
+                            <p class="hours-note">Closed on Sundays</p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">&#128222;</div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:4075551234">(407) 555-1234</a></p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">&#9993;</div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@marysboutique.com">info@marysboutique.com</a></p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">&#128247;</div>
+                            <h3>Follow Us</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link" title="Instagram">
+                                    <span class="social-icon">&#128247;</span> Instagram
+                                </a>
+                                <a href="#" class="social-link" title="Pinterest">
+                                    <span class="social-icon">&#128204;</span> Pinterest
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mary's Boutique</h4>
+                    <p>Partnering with local </p>
+                    <p>artisans and creators.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Shop</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>(407) 555-1234</p>
+                    <p>info@marysboutique.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mary's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
