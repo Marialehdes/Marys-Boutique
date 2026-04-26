@@ -6,11 +6,7 @@ A multi-page static website for **Mary's Boutique** — a boho & cutesy local sh
 
 ## What Is This Project?
 
-
 Mary's Boutique is a fully static front-end website built with plain HTML, CSS, and a small amount of JavaScript. It serves as the online presence for a boutique, giving customers a place to browse products, learn the store's story, and get in touch.
-
-Mary's Boutique is a fully static front-end website built with plain HTML, CSS, and a small amount of JavaScript. It serves as the online presence for a real brick-and-mortar boutique, giving customers a place to browse products, learn the store's story, and get in touch.
-
 
 ---
 
@@ -121,13 +117,11 @@ This is a **zero-dependency** project. No `npm install`, no compilation step.
 
 ## Screenshots
 
-> Add your screenshots to a `screenshots/` folder in the project root, then replace the placeholder text below with the actual image paths.
-
 ### Home Page — Hero & Featured Products
 ```
 [Screenshot: Home page showing the hero banner with "Chic, Cute, & Unique Finds for You" headline and the three featured product cards below]
 ```
-`screenshots/home-page.png`
+`images/ss/home-page.png`
 
 ---
 
