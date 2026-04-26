@@ -6,7 +6,11 @@ A multi-page static website for **Mary's Boutique** — a boho & cutesy local sh
 
 ## What Is This Project?
 
+
 Mary's Boutique is a fully static front-end website built with plain HTML, CSS, and a small amount of JavaScript. It serves as the online presence for a boutique, giving customers a place to browse products, learn the store's story, and get in touch.
+
+Mary's Boutique is a fully static front-end website built with plain HTML, CSS, and a small amount of JavaScript. It serves as the online presence for a real brick-and-mortar boutique, giving customers a place to browse products, learn the store's story, and get in touch.
+
 
 ---
 
