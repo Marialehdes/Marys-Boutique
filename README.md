@@ -118,42 +118,32 @@ This is a **zero-dependency** project. No `npm install`, no compilation step.
 ## Screenshots
 
 ### Home Page — Hero & Featured Products
-```
-[Screenshot: Home page showing the hero banner with "Chic, Cute, & Unique Finds for You" headline and the three featured product cards below]
-```
-`images/ss/home-page.png`
+
+![Home Page](images/ss/home-page.png)
 
 ---
 
 ### Shop Page — Product Catalog
-```
-[Screenshot: Shop page with the three product category sections — Jewelry, Planners & Accessories, and Handmade & Special Items]
-```
-`screenshots/shop-page.png`
+
+![Shop Page](images/ss/shop-page.png)
 
 ---
 
 ### About Page — Meet Mary & Mission
-```
-[Screenshot: About page showing Mary's photo, her story, the mission statement, and the three value icons]
-```
-`screenshots/about-page.png`
+
+![About Page](images/ss/about-page.png)
 
 ---
 
 ### Contact Page — Form & Store Details
-```
-[Screenshot: Contact page with the message form on the left and the store info cards (location, hours, phone, email, social) on the right]
-```
-`screenshots/contact-page.png`
+
+![Contact Page](images/ss/contact-page.png)
 
 ---
 
 ### Mobile Navigation — Hamburger Menu
-```
-[Screenshot: Mobile view (< 768px) with the hamburger menu open, showing the full-screen dropdown navigation]
-```
-`screenshots/mobile-nav.png`
+
+![Mobile Navigation](images/ss/mobile-view.png)
 
 ---
 
