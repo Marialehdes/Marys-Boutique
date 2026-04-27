@@ -70,7 +70,7 @@ Marys-Boutique/
 
 No installation or build step is required.
 
-Visit "" to view it live.
+Visit "https://marysboutiqueshop.netlify.app/" to view it live.
 
 Otherwise:
 
